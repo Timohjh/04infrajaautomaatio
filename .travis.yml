@@ -1,4 +1,4 @@
 language: python 
 script:
   - pytest
-  - coverage run -m pytest
+  - coverage report -m
