@@ -1,4 +1,4 @@
 language: python 
 script:
   - pytest
-  - coverage report -m --source=. pytest
+  - coverage run -m pytest postinumerot.py postitoimipaikka.py test_postinumerot.py
